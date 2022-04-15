@@ -1,0 +1,14 @@
+.movieContainer {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 250px);
+	gap: 10px;
+	width: 90vw;
+	justify-content: center;
+	margin: auto;
+}
+
+@media screen and (max-width: 500px) {
+	.movieContainer {
+	grid-template-columns: 100%;
+	}
+}

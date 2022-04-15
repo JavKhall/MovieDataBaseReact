@@ -1,0 +1,18 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #282c34;
+  color: white; 
+  min-height: 100vh;
+}
+
+.App_header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2px auto;
+  margin-bottom: 10px;
+  width: 90vw;
+  height: 60px;  
+}
